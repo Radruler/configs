@@ -1,0 +1,115 @@
+{
+  // Files"files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.mjml": "html",
+    "*.sml": "python"
+  },
+  "files.exclude": {
+    "**/.git": true, // this is a default value
+    "**/.DS_Store": true, // this is a default value"**/node_modules": true, // this excludes all folders"node_modules/": true,
+    "**/*.class": true,
+    "**/*.pyc": true,
+    "**/.idea": true,
+    ".idea": true,
+    "**/_build": true,
+    "**/deps": true,
+    // Specific folders
+    "discord_android/build/**": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.DS_Store": true
+  },
+  // Editor"editor.renderIndentGuides": true,
+  "editor.cursorBlinking": "solid",
+  "editor.rulers": [
+    120
+  ],
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.insertSpaces": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  // Javascript"javascript.validate.enable": false,
+  // CSS"stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+  // Prettier"prettier.requireConfig": true,
+  // Flow"flow.pathToFlow": "/usr/local/bin/flow",
+  "flow.useNPMPackagedFlow": true,
+  // Explorer"explorer.openEditors.visible": 12,
+  "explorer.confirmDragAndDrop": false,
+  // Window"window.zoomLevel": 0,
+  // Typescript"typescript.check.npmIsInstalled": false,
+  // Telemetry"telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  // Workbench"workbench.editor.enablePreview": true,
+  "git.enableSmartCommit": true,
+  "gitlens.keymap": "chorded",
+  "gitlens.historyExplorer.enabled": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  // Python Formatting on save
+  // "python.formatting.blackPath": "${workspaceRoot}/tools/blackw",
+  "python.formatting.provider": "black",
+  // pylance highlights everything in smite-rules as incorrect, disable
+  "python.languageServer": "None",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.codeLens": true,
+  "git.autofetch": true,
+  "python.formatting.blackPath": "~/projects/discord/tools/blackw",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "git-rebase-todo": "default"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.confirmSync": false,
+}
+// import Config
+// {
+//   // Terminal Settings
+//   "terminal.integrated.fontFamily": "Fira Mono for Powerline",
+//   "terminal.integrated.fontSize": 14,
+//   // Editor Settings
+//   // |--> Font and spacing
+//   "editor.fontFamily": "Fira Code",
+//   "editor.fontSize": 14,
+//   "editor.fontLigatures": true,
+//   "editor.renderWhitespace": "boundary",
+//   "editor.tabSize": 2,
+//   // |--> Formatting
+//   "editor.formatOnSave": true,
+//   "editor.defaultFormatter": "esbenp.prettier-vscode",
+//   "[python]": {
+//     "editor.defaultFormatter": "ms-python.python"
+//   },
+//   "python.formatting.blackPath": "${workspaceRoot}/tools/blackw",
+//   "python.formatting.provider": "black",
+//   "workbench.editorAssociations": [
+//     {
+//       "viewType": "jupyter.notebook.ipynb",
+//       "filenamePattern": "*.ipynb"
+//     }
+//   ],
+//   // Emmet
+//   "emmet.triggerExpansionOnTab": true,
+//   "emmet.includeLanguages": {
+//     "javascript": "javascriptreact",
+//     "postcss": "css"
+//   },
+//   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_"
+// }
